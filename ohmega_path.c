@@ -26,7 +26,9 @@ int binaryToDecimal(int binary[], int size) {
     }
 
     return decimal;
-    
+
 }
 
-
+int bitwiseXOR(int a, int b) {
+    return a ^ b;
+}
