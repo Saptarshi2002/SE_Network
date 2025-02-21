@@ -19,11 +19,14 @@ int toBinary(int num, int binary[]) {
 
 
 int binaryToDecimal(int binary[], int size) {
+
     int decimal = 0;
     for (int i = 0; i < size; i++) {
         decimal += binary[i] * (1 << i);
     }
+
     return decimal;
+    
 }
 
 
