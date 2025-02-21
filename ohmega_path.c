@@ -32,3 +32,15 @@ int binaryToDecimal(int binary[], int size) {
 int bitwiseXOR(int a, int b) {
     return a ^ b;
 }
+
+void performR2(int r[]) {
+    r[0] = !r[0];
+}
+
+void performR1(int r[]) {
+    r[1] = !r[1];
+}
+
+void performR0(int r[]) {
+    r[2] = !r[2];
+}
